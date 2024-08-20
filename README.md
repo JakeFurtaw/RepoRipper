@@ -1,13 +1,15 @@
 # RepoRipper
-This is a project that I created to help me when I am first starting a new to me project that is built in a language I am not 
-familiar with or that I want the models help with generating repetitive code. This allows Codestral access to your repository
-and gives you the ability to query or chat the model with any questions about the repo in general or certain files in 
-the repo. It all runs locally to avoid paying for those pesky subscriptions.
+This project is designed to streamline the process of starting a new project, especially when working with an unfamiliar programming language. It also leverages an AI model to generate repetitive code, making your workflow more efficient.
 
-It is very easy to use all you have to do is change the strings under the owner, repo, and branch to specify which repo
-you are looking to chat with. As well as what file extensions you want the model to target. Then you ask away. This
-is a great alternative to paying for other large language models to chat with about your code.
+Codestral integrates seamlessly with your repository, enabling you to query or chat with the model to get answers about the repository in general or specific files within it. The entire process runs locally, so you won't need to worry about subscription fees.
 
-### Other
-If you have any questions, comments, or concerns please feel free to reach out to me about this code id be more than happy to
-help get you started. Also, please feel free to fork the repo and add any features you see fit.
+## Getting Started
+Using this tool is simple:
+
+Configure the Settings: Update the owner, repo, and branch strings to point to the repository you want to interact with.
+Specify Target Files: Define the file extensions you'd like the model to focus on.
+Start Chatting: Once configured, you can begin asking the model questions about your codebase.
+This is a cost-effective alternative to using paid large language models for code-related queries.
+
+## Contributing
+If you have any questions, comments, or concerns, please feel free to reach out. I'd be more than happy to help you get started. Additionally, you're welcome to fork this repository and contribute any features you think would enhance its functionality.
