@@ -1,15 +1,32 @@
-# RepoRipper
-This project is designed to streamline the process of starting a new project, especially when working with an unfamiliar programming language. It also leverages an AI model to generate repetitive code, making your workflow more efficient.
+# Repo Ripper
 
-Codestral integrates seamlessly with your repository, enabling you to query or chat with the model to get answers about the repository in general or specific files within it. The entire process runs locally, so you won't need to worry about subscription fees.
+Repo Ripper is an innovative tool designed to revolutionize the way developers interact with and understand GitHub repositories, especially when dealing with unfamiliar codebases or languages. This efficient, locally-run application allows users to have intelligent conversations about any GitHub repository's contents using advanced Language Model (LLM) technology.
 
-## Getting Started
-Using this tool is simple:
+## Key Features:
 
-Configure the Settings: Update the owner, repo, and branch strings to point to the repository you want to interact with.
-Specify Target Files: Define the file extensions you'd like the model to focus on.
-Start Chatting: Once configured, you can begin asking the model questions about your codebase.
-This is a cost-effective alternative to using paid large language models for code-related queries.
+1. **GitHub Integration**: Seamlessly connects to any public GitHub repository, allowing users to specify the owner, repo name, and branch.
 
-## Contributing
-If you have any questions, comments, or concerns, please feel free to reach out. I'd be more than happy to help you get started. Additionally, you're welcome to fork this repository and contribute any features you think would enhance its functionality.
+2. **Flexible File Filtering**: Users can target specific file extensions, focusing the analysis on relevant code files.
+
+3. **Local LLM Powered**: Utilizes Ollama's Codestral model, running entirely on your local machine, eliminating the need for costly API subscriptions.
+
+4. **Dual Interaction Modes**:
+   - Query Engine: For quick, specific questions about the repository.
+   - Chat Engine: Maintains conversation history for more context-aware interactions.
+
+5. **Advanced NLP Techniques**: Implements Retrieval-Augmented Generation (RAG) to provide accurate, context-based responses.
+
+6. **Customizable Prompts**: Includes carefully crafted prompts to guide the LLM in providing relevant and precise answers.
+
+7. **Efficient Embedding**: Uses HuggingFace's BGE embeddings for optimal performance in understanding code context.
+
+8. **GPU Acceleration**: Supports CUDA for enhanced processing speed on compatible hardware.
+
+## Use Cases:
+
+- Quickly understand new codebases or projects written in unfamiliar languages.
+- Generate boilerplate or repetitive code snippets based on existing repository patterns.
+- Get explanations or summaries of complex code structures or algorithms within a repository.
+- Assist in code reviews by providing context and explanations for specific parts of the codebase.
+
+Repo Ripper stands out as a powerful tool for developers, researchers, and code reviewers, offering a unique way to interact with and extract insights from GitHub repositories. By leveraging the power of local LLMs, it provides a cost-effective, privacy-conscious alternative to cloud-based code analysis tools.
